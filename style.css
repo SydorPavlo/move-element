@@ -1,0 +1,41 @@
+#element {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+}
+
+.up {
+  box-shadow: 0 1em 5px #0005;
+}
+
+.down {
+  box-shadow: 0 -1em 5px #0005;
+}
+
+.left {
+  box-shadow: 1em 0 5px #0005;
+}
+
+.right {
+  box-shadow: -1em 0 5px #0005;
+}
+
+.up-left {
+  box-shadow: 0.7em 0.7em 5px #0005;
+}
+
+.up-right {
+  box-shadow: -0.7em 0.7em 5px #0005;
+}
+
+.down-left {
+  box-shadow: 0.7em -0.7em 5px #0005;
+}
+
+.down-right {
+  box-shadow: -0.7em -0.7em 5px #0005;
+}
